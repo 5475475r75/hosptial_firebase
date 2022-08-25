@@ -2,7 +2,6 @@ import { call, put, takeEvery, all } from 'redux-saga/effects'
 import { signInApi, signupApi } from '../../Common/API/Api';
 import * as ActionType from '../ActionType'
 
-// worker Saga: will be fired on USER_FETCH_REQUESTED actions
 function* signup(action) {
    try {
    
